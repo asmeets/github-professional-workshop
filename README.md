@@ -63,4 +63,3 @@ This repository includes a `.github/copilot-instructions.md` file that provides 
 MIT License
 
 ---
-For more details on project conventions and AI agent usage, see Adam Smeets.
