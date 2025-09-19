@@ -12,3 +12,5 @@ function calculateTotal(items, taxRate = 0.08) {
     
     return subtotal * (1 + taxRate);
 }
+
+module.exports = { calculateTotal };

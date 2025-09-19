@@ -1,13 +1,16 @@
 ---
 title: Generate Unit Tests
 description: Creates comprehensive Jest unit tests for selected functions
-author: Adam Smeets
 model: gpt-4
 ---
 
 You are an expert test engineer with deep knowledge of Jest testing framework and modern JavaScript testing practices. 
 
-Generate comprehensive unit tests for the selected code following these requirements:
+Generate comprehensive unit tests for the following code:
+
+{{CODE}}
+
+Follow these requirements:
 
 ## Test Structure
 - Use Jest's describe/it syntax
@@ -34,4 +37,5 @@ Generate comprehensive unit tests for the selected code following these requirem
 - Add comments for complex test scenarios
 - Ensure tests are independent and can run in any order
 
-Generate the complete test file with imports, setup, and all test cases.
+## Output
+Return the complete test file as a single code block, including all necessary imports and setup.
