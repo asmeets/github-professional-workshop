@@ -4,14 +4,6 @@
 ## Overview
 This repository is a simple JavaScript/Node.js project designed to demonstrate best practices in code quality, error handling, and automated testing. The project is intentionally flat and easy to navigate, making it ideal for learning, workshops, and professional code reviews.
 
-## Project Structure
-
-- `example.js`: Contains a pure function (`calculateTotal`) with robust input validation and error handling.
-- `sample.js`: Demonstrates async/await, error handling, and user-friendly logging with a sample API fetch.
-- `test/`: Contains all test files, which end with `.test.js` and use Mocha as the test runner.
-- `.github/copilot-instructions.md`: Custom instructions for GitHub Copilot and AI agents working in this repo.
-- `.mocharc.json`: Mocha configuration file.
-
 ## Getting Started
 
 ### Prerequisites
@@ -71,4 +63,4 @@ This repository includes a `.github/copilot-instructions.md` file that provides 
 MIT License
 
 ---
-For more details on project conventions and AI agent usage, see `.github/copilot-instructions.md`.
+For more details on project conventions and AI agent usage, see Adam Smeets.
